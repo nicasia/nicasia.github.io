@@ -1,0 +1,212 @@
+
+/* LAYOUT */
+
+body {
+    font-size: 15px;
+    background-color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-header {
+    padding-left: 40px;
+    background-color: #67000d;
+    color: #fff;
+    opacity: .4;
+}
+
+
+.scatter-img {
+    width: 60%;
+    float: center;
+    margin: auto;
+}
+
+.img-wrapper {
+    text-align: center;
+}
+
+
+#chloropleth-helpers {
+    padding-left: 50px;
+}
+
+/* Nav Bar */
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D2D3D8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000000;
+}
+
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+
+
+/* Header */
+
+
+#header {
+  background-image:url(../img/mn2.jpg);
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+#header h1 {
+    padding-top: 300px;
+    padding-bottom: 100px;
+    font-size: 70px;
+}
+
+#header h4 {
+    padding-bottom: 200px;
+    font-size: 30px;
+}
+
+
+#links-to-notebooks {
+    font-size: 20px;
+    background-color: #D2D3D8;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+/* TABLE */
+
+
+.info-table {
+  margin-top: 30px;
+  padding: 10px;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+}
+
+.info-table-titles {
+  text-align: left;
+}
+
+#info-1, #info-2 {
+    text-align: center
+}
+
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background: #ddddff;
+  text-align: left
+}
+
+
+
+
+/* Chloropleth Map Section */
+
+#text-chloropleth{
+    padding-left: 40px
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+#data-type {
+    width: 90% ;
+}
+
+#chloropleth-helpers{
+    padding-top: 30px;
+}
+#tree-title {
+    padding-left: 40px;
+}
+
+#title-text-chloropleth {
+    align-content: center
+}
+
+
+/* map tooltips */
+
+div.tooltip {
+    color: #000;
+    background-color: #fff;
+    padding: .5em;
+    text-shadow: #f5f5f5 0 1px 0;
+    border-radius: 2px;
+    opacity: 0.9;
+    position: absolute;
+}
+
+#tooltip-country {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.table-row-name {
+    font-weight: bold ;
+}
+
+.table-elt {
+    padding-left: 10px ;
+}
+
+
+
