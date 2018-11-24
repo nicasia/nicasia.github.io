@@ -1,4 +1,4 @@
-
+/*
 /* LAYOUT */
 
 body {
@@ -18,7 +18,7 @@ body {
 h1 {
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
 
 .section-header {
@@ -48,7 +48,7 @@ h1 {
 
 
 
-ul {
+/*#navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -59,9 +59,9 @@ ul {
     width: 100%;
     z-index: 1000000;
 }
+*/
 
-
-
+/*
 li {
     float: left;
 }
@@ -78,7 +78,7 @@ li a:hover {
     background-color: #eee;
     color: black;
 }
-
+*/
 
 
 /* Header */
@@ -208,3 +208,4 @@ div.tooltip {
     padding-left: 10px ;
 }
 
+*/
